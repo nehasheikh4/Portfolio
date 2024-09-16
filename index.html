@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheikh Neha</title>
+    <link rel="shortcut icon" href="./s.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Animation for project cards */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .fadeInUp {
+            animation: fadeInUp 0.5s ease-out;
+        }
+        #resume{
+           text-decoration: none;
+           
+           color: white;
+           /* border: 1px solid white;   */
+           
+       }
+
+        
+    </style>
+</head>
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="font-bold text-xl">Sheikh Neha</a>
+        <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-200">Home</a></li>
+            <li><a href="#projects" class="hover:text-gray-200">Projects</a></li>
+            <li><a href="#about-me" class="hover:text-gray-300">Experties</a></li>
+            <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-gray-900 text-white py-20 px-4 text-center">
+    <div class="container mx-auto">
+        <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
+        <p class="text-lg">
+                        "I am a frontend developer dedicated to crafting immersive web environments. Proficient in HTML, CSS, and JavaScript. Leveraging the robust frameworks of Bootstrap and the dynamic capabilities of jQuery. Let's collaborate and redefine excellence in the digital realm."</p>
+                       <br>
+                        <a class="bg-gray" href="./Resume.docx">RESUME<label for="">
+                            <input type="button" name="Resume" id="resume">
+                           </label></a> 
+    </div>
+</section>
+<!--About me section-->
+<section id="about-me">
+<div class="bg-gray-200 py-8 mt-4 ">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold mb-4">HTML (HyperText Markup Language)</h2>
+        <p class="text-gray-700">HTML is the foundation of web development and is essential for creating any web page or application. HTML, which stands for HyperText Markup Language, is the standard language used to create and design web pages. It provides the structure and content of a webpage by using a system of markup tags, which are enclosed in angle brackets (< >) and define various elements such as headings, paragraphs, links, images, and more.</p>
+    </div>
+</div>
+<div class="bg-gray-200 py-8 mt-4"> <!-- Added mt-4 for margin top -->
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold mb-4">CSS (Cascading Style Sheets)</h2>
+        <p class="text-gray-700">CSS, which stands for Cascading Style Sheets, is a stylesheet language used to control the presentation and layout of HTML documents. It allows developers to define the visual appearance of web pages by specifying how HTML elements should be displayed on the screen, printed, or otherwise rendered!</p>
+    </div>
+</div>
+<div class="bg-gray-200 py-8 mt-4"> <!-- Added mt-4 for margin top -->
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold mb-4">JS (JavaScript)</h2>
+        <p class="text-gray-700">JavaScript is a versatile and powerful language that is widely used in web development, and mastering it opens up a world of possibilities for creating interactive and dynamic web applications. JavaScript can be used to perform a wide range of tasks, including: Manipulating HTML, Responding to Events, Data Manipulation, Control Flow, Functions, DOM Manipulation and Browser APIs</p>
+    </div>
+</div>
+<div class="bg-gray-200 py-8 mt-4"> <!-- Added mt-4 for margin top -->
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold mb-4">Bootstrap</h2>
+        <p class="text-gray-700">Bootstrap is a popular open-source CSS framework developed by  Mark Otto and Jacob Thornton at Twitter. It provides a set of pre-designed, responsive UI components and styles that make it easy to build modern and mobile-first web pages and web applications. Bootstrap simplifies the process of building responsive and visually appealing web page.</p>
+    </div>
+</div>
+
+</section>
+<!-- Projects Section -->
+<section id="projects" class="py-20 px-4 bg-white">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <!-- Project Cards -->
+            <div class="bg-gray-800 rounded-lg p-6 shadow-md text-center" style="background-color:bg-gray-900;">
+                <h3 class="text-xl font-semibold text-gray-100 mb-2" >Amazon Webpage</h3>
+                <p class="text-gray-100">Amazon Responsive Webpage clone by using Html and CSS.</p>
+                <a href="./Amazon webpage/index.html" class="block mt-4 text-blue-500 hover:underline">View Project</a>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-6 shadow-md text-center">
+                <h3 class="text-xl font-semibold text-gray-100 mb-2">Jensen Decors</h3>
+                <p class="text-gray-100">A responsive wall decor project by using Html, CSS, Javascript and Bootstrap.</p>
+                <a href="./JensenDecors/JensenDecors/E-project/Home.html" class="block mt-4 text-blue-500 hover:underline">View Project</a>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-6 shadow-md text-center">
+                <h3 class="text-xl font-semibold text-gray-100 mb-2">Food Website</h3>
+                <p class="text-gray-100">A responsive website of resturants food</p>
+                <a href="./food website/index.html" class="block mt-4 text-blue-500 hover:underline">View Project</a>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-6 shadow-md text-center" style="background-color:bg-gray-900;">
+                <h3 class="text-xl font-semibold text-gray-100 mb-2" >Netflix Webpage</h3>
+                <p class="text-gray-100">Netflix Responsive Webpage clone by using Html and CSS.</p>
+                <a href="./netweb/index.html" class="block mt-4 text-blue-500 hover:underline">View Project</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 px-4 bg-gray-900 text-white">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
+        <form class="max-w-md mx-auto">
+            <div class="mb-4">
+                <label class="block text-gray-400 text-sm mb-2" for="name">Name</label>
+                <input class="w-full p-3 rounded bg-gray-800 text-gray-200 focus:outline-none focus:bg-gray-700" type="text" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-400 text-sm mb-2" for="email">Email</label>
+                <input class="w-full p-3 rounded bg-gray-800 text-gray-200 focus:outline-none focus:bg-gray-700" type="email" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-400 text-sm mb-2" for="message">Message</label>
+                <textarea class="w-full p-3 rounded bg-gray-800 text-gray-200 focus:outline-none focus:bg-gray-700" id="message" rows="6" placeholder="Your Message"></textarea>
+            </div>
+            <button class="w-full bg-blue-500 text-white py-3 rounded hover:bg-blue-600 transition duration-300" type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer Section -->
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- About Me Section -->
+        <div class="about-me">
+            <h3 class="text-xl font-bold mb-4">About Me</h3>
+            <p>My name is Neha. I am currently a student of Aptech. </p>
+        </div>
+        <!-- Contact Me Section -->
+        <div class="contact-me">
+            <h3 class="text-xl font-bold mb-4">Contact Me</h3>
+            <ul class="text-gray-400">
+                <li>Email: nehasheikh46000@gmail.com</li>
+                <li>Phone: 0319-7707943</li>
+                <li>Address: C373 Gulistan Society Malir, Karachi</li>
+            </ul>
+        </div>
+        <!-- Social Media Section -->
+      
+    </div>
+    <!-- Copyright Text -->
+    <footer class="bg-gray-900 text-white py-8">
+        <!-- Other content -->
+        <div class="text-center mt-8">
+            <p>&copy; 2024 Sheikh Neha</p>
+        </div>
+    </footer>
+    
+<!-- Optional JavaScript -->
+<script src="./script.js">
+ 
+</script>
+</body>
+</html>
